@@ -1,0 +1,38 @@
+{
+    "CheckIntervalHours": 24,
+    "LogFile": "~/.sxtools/install.log",
+
+    "Applications": [
+        {
+            "Name": "Oh My Posh",
+            "WingetId": "JanDeDobbeleer.OhMyPosh",
+            "Command": "oh-my-posh"
+        },
+        {
+            "Name": "Git",
+            "WingetId": "Git.Git",
+            "Command": "git"
+        },
+        {
+            "Name": "7-Zip",
+            "WingetId": "7zip.7zip",
+            "Command": "7z"
+        },
+        {
+            "Name": "Neovim",
+            "WingetId": "Neovim.Neovim",
+            "Command": "nvim"
+        },
+        {
+            "Name": "Yazi",
+            "WingetId": "sxyazi.yazi",
+            "Command": "yazi"
+        }
+    ],
+
+    "Modules": [
+        "PSReadLine",
+        "Terminal-Icons",
+        "posh-git"
+    ]
+}
