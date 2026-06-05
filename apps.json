@@ -1,0 +1,7 @@
+{
+  "apps": [
+    { "name": "git", "winget": "Git.Git" },
+    { "name": "neovim", "winget": "Neovim.Neovim" },
+    { "name": "7zip", "winget": "7zip.7zip" }
+  ]
+}
